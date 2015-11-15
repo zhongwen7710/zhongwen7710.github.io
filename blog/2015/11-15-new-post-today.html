@@ -9,8 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="易用性 定制要求不高则简单，进阶一点需要掌握某种脚本语言（AppleScript、Shell、Python、Ruby 等），再进一步需要熟悉 Today Scripts 的源代码，诸如修改字体字号、设置刷新时间等功能应该就可以实现吧。 稳定性 稳定性好，不过脚本多了感觉每个都会很慢。 跨平台 仅 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -28,9 +27,10 @@
   <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<!-- 
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
+-->
   
 
 </head>
@@ -59,6 +59,7 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">about</a></li>
 </ul>
 
 </nav>
@@ -80,12 +81,45 @@
 
 <time class='entry-date' datetime='2015-11-15T19:45:26+08:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>7:45 pm</span></time>
         
+		
+      | <a href="#comments">Comments</a>
+     
       </p>
     
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>易用性</p>
+
+<p>定制要求不高则简单，进阶一点需要掌握某种脚本语言（AppleScript、Shell、Python、Ruby 等），再进一步需要熟悉 Today Scripts 的源代码，诸如修改字体字号、设置刷新时间等功能应该就可以实现吧。</p>
+
+<p>稳定性</p>
+
+<p>稳定性好，不过脚本多了感觉每个都会很慢。</p>
+
+<p>跨平台</p>
+
+<p>仅 OS X。</p>
+
+<p>类似软件</p>
+
+<p>放眼 OS X 界面，允许我们编写脚本显示自定制信息的也就是桌面、菜单栏、通知栏再加上仪表板（Dashboard）了。</p>
+
+<p>桌面显示的代表软件自然是 GeekTool，空间够大，若能细心设计，美观程度也是妥妥儿的。</p>
+
+<p>菜单栏寸土寸金，限于尺寸无法完整显示长文本，代表性的软件有 TextBar、Shellwrangler，前者在功能、可定制性、美观程度上远优于免费的后者，可参见 脚本实例。</p>
+
+<p>通知栏的尺寸特点能够让信息完整、紧凑的显示出来，双指滑动调用也比较流畅，不过尚未发现与 Today Scripts 类似的软件。</p>
+
+<p>Dashboard 空间虽大，但估计不太有用户会经常光顾这里。Dashboard 插件少，开发也不活跃，目前仅能找到 Shellwatcher 可以执行脚本并显示结果，效果很土的说，还有一款名为 Quickcommand 的插件已经下架了。</p>
+
+<p>闪光点</p>
+
+<p>开源；
+可定制性强，功能实用。
+缺点</p>
+
+<p>插件本身的定制成本高，需要学习源代码。</p>
 </div>
 
 
@@ -113,6 +147,20 @@
   
   
   
+  
+  <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+	<span class="jiathis_txt">分享到：</span>
+	<a class="jiathis_button_icons_1"></a>
+	<a class="jiathis_button_icons_2"></a>
+	<a class="jiathis_button_icons_3"></a>
+	<a class="jiathis_button_icons_4"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
 </div>
 
     
@@ -122,6 +170,25 @@
     </p>
   </footer>
 </article>
+
+
+  <section>
+    <h1>Comments</h1>
+    <div id="Comments" aria-live="polite"><!-- Duoshuo Comment BEGIN -->
+<div class="ds-thread" data-title="New-post-today"></div>
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"zhongwen7710"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script>
+<!-- Duoshuo Comment END --></div>
+  </section>
 
 </div>
 
@@ -143,10 +210,15 @@
 
 <section>
 	<h1>About Me</h1>
-	<p>My Dear</p>
-	<p>WEIBO: <a href="http://weibo.com/yourname">@yourweiboname</a><br/>
-	<p>DOUban: <a href="http://douban.com/yourname">@yourdoubanname</a><br/>
+	<p>一句话介绍</p>
+	<p>微博: <a href="http://weibo.com/yourname">@yourweiboname</a><br/>
+	<p>豆瓣: <a href="http://douban.com/yourname">@yourdoubanname</a><br/>
 	</p>
+</section><section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    
+  </ul>
 </section>
   
 </aside>
@@ -154,11 +226,13 @@
 
     </div>
   </div>
-  <footer role="contentinfo"><p>
+  <footer role="contentinfo"><!--
+<p>
   Copyright &copy; 2015 - Your Name -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+</p> 
+-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256774150'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256774150%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 </footer>
   
 

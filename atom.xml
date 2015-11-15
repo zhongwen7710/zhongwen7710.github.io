@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://zhongwen7710.github.io/atom.xml" rel="self"/>
   <link href="http://zhongwen7710.github.io/"/>
-  <updated>2015-11-15T20:44:21+08:00</updated>
+  <updated>2015-11-15T22:47:53+08:00</updated>
   <id>http://zhongwen7710.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,7 +18,37 @@
     <link href="http://zhongwen7710.github.io/blog/2015/11-15-new-post-today.html"/>
     <updated>2015-11-15T19:45:26+08:00</updated>
     <id>http://zhongwen7710.github.io/blog/2015/new-post-today</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>易用性</p>
+
+<p>定制要求不高则简单，进阶一点需要掌握某种脚本语言（AppleScript、Shell、Python、Ruby 等），再进一步需要熟悉 Today Scripts 的源代码，诸如修改字体字号、设置刷新时间等功能应该就可以实现吧。</p>
+
+<p>稳定性</p>
+
+<p>稳定性好，不过脚本多了感觉每个都会很慢。</p>
+
+<p>跨平台</p>
+
+<p>仅 OS X。</p>
+
+<p>类似软件</p>
+
+<p>放眼 OS X 界面，允许我们编写脚本显示自定制信息的也就是桌面、菜单栏、通知栏再加上仪表板（Dashboard）了。</p>
+
+<p>桌面显示的代表软件自然是 GeekTool，空间够大，若能细心设计，美观程度也是妥妥儿的。</p>
+
+<p>菜单栏寸土寸金，限于尺寸无法完整显示长文本，代表性的软件有 TextBar、Shellwrangler，前者在功能、可定制性、美观程度上远优于免费的后者，可参见 脚本实例。</p>
+
+<p>通知栏的尺寸特点能够让信息完整、紧凑的显示出来，双指滑动调用也比较流畅，不过尚未发现与 Today Scripts 类似的软件。</p>
+
+<p>Dashboard 空间虽大，但估计不太有用户会经常光顾这里。Dashboard 插件少，开发也不活跃，目前仅能找到 Shellwatcher 可以执行脚本并显示结果，效果很土的说，还有一款名为 Quickcommand 的插件已经下架了。</p>
+
+<p>闪光点</p>
+
+<p>开源；
+可定制性强，功能实用。
+缺点</p>
+
+<p>插件本身的定制成本高，需要学习源代码。</p>
 ]]></content>
   </entry>
   
